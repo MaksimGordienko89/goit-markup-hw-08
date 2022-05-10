@@ -1,0 +1,50 @@
+.conteiner-wrap {
+  display: flex;
+  align-items: baseline;
+}
+footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.contact__logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-lite-color);
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.adress__link {
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-lite-color);
+}
+.adress__item {
+  display: block;
+  list-style: none;
+  max-width: 231px;
+  margin-right: 0;
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+.adress__mail,
+.adress__tel {
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
