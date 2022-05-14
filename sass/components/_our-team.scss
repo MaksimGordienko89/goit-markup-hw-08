@@ -2,10 +2,10 @@
   background-color: var(--btn-filter-background-color);
   min-height: 648px;
 }
-.our-team__menu {
-  display: flex;
-  margin-left: -30px;
-}
+// .our-team__menu {
+//   display: flex;
+//   margin-left: -30px;
+// }
 .our-team__item {
   list-style: none;
   background-color: var(--main-lite-color);
@@ -22,10 +22,10 @@
 .our-team__title,
 .clients__title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 28px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
 }
 .our-team__name,
