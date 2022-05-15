@@ -2,24 +2,40 @@
   background-color: var(--btn-filter-background-color);
   // min-height: 648px;
 }
-// .our-team__menu {
-//   display: flex;
-//   margin-left: -30px;
-// }
+.our-team__menu {
+  @media screen and (min-width: 720px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .our-team__item {
   &:not(:last-child) {
     margin-bottom: 30px;
   }
   list-style: none;
   background-color: var(--main-lite-color);
-  // flex-basis: calc(100% / 4 - 30px);
-  // margin-left: 30px;
-  // max-width: 270px;
-  // width: calc(100%);
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  @media screen and (min-width: 720px) {
+    width: calc(100% / 2 - 30px);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 0;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    width: calc(100% / 4 - 30px);
+    &:not(:last-child) {
+      margin-right: 30px;
+      margin-bottom: 0;
+    }
+  }
 }
 .workspace__title,
 .our-team__title,
@@ -30,6 +46,10 @@
   letter-spacing: 0.03em;
   margin-bottom: 30px;
   text-align: center;
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: 1.16;
+  }
 }
 .our-team__name,
 .our-team__profesion {
