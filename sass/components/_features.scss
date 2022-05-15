@@ -21,7 +21,6 @@
     flex-basis: calc((100% - 30px * (4 - 1)) / 4);
   }
 }
-
 .icon-antenne::before {
   background-image: url(../images/icons/antenna.png);
 }
@@ -41,9 +40,6 @@
     gap: 30px;
   }
 }
-// .features {
-//   padding-bottom: 0;
-// }
 .features__title {
   text-align: center;
   font-weight: 700;
