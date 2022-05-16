@@ -28,10 +28,13 @@
             ><span class="navigation-menu__logo-color">Web</span>Studio</a
           >
           <button type="button" class="header__menu-btn">
-          <svg class="header__icon-open" width="40" height="40">
-            <use class="header__icon-vektor" href="./images/icons/symbol-defs.svg#icon-menu_40px"></use>
-          </svg>
-        </button>
+            <svg class="header__icon-open" width="40" height="40">
+              <use
+                class="header__icon-vektor"
+                href="./images/icons/symbol-defs.svg#icon-menu_40px"
+              ></use>
+            </svg>
+          </button>
           <ul class="navigation-menu-list">
             <li class="navigation-menu-list__item">
               <a
@@ -70,23 +73,25 @@
             >
           </li>
         </ul>
-        <div class="mob-menu">
+        <div class="mob-menu is-hidden">
           <div class="container">
             <div class="mob-menu-top">
-              <button type="button" class="mob-menu__btn" data-modal-close>
-              <svg class="mob-menu__icon-close" width="40" height="40">
-              <use class="mob-menu__icon-vektor" href="./images/icons/symbol-defs.svg#icon-close_40px"></use>
-              </svg></button>
+              <button type="button" class="mob-menu__btn">
+                <svg class="mob-menu__icon-close" width="40" height="40">
+                  <use
+                    class="mob-menu__icon-vektor"
+                    href="./images/icons/symbol-defs.svg#icon-close_40px"
+                  ></use>
+                </svg>
+              </button>
               <ul class="mob-menu__list">
                 <li class="mob-menu__item">
-                  <a
-                class="mob-menu__link"
-                href="./index.html"
-                >Студия</a>
+                  <a class="mob-menu__link" href="./index.html">Студия</a>
                 </li>
                 <li class="mob-menu__item">
                   <a class="mob-menu__link" href="./portfolio.html"
-                >Портфолио</a>
+                    >Портфолио</a
+                  >
                 </li>
                 <li class="mob-menu__item">
                   <a class="mob-menu__link" href="#">Контакты</a>
@@ -97,22 +102,34 @@
               <ul class="mob-menu__contacts">
                 <li class="mob-menu__contacts-item">
                   <a class="mob-menu__contacts-tel" href="tel:+380961111111">
-              +38 096 111 11 11</a>
+                    +38 096 111 11 11</a
+                  >
                 </li>
                 <li class="mob-menu__contacts-item">
-                  <a class="mob-menu__contacts-mail" href="mailto:info@devstudio.com">
-              info@devstudio.com
+                  <a
+                    class="mob-menu__contacts-mail"
+                    href="mailto:info@devstudio.com"
+                  >
+                    info@devstudio.com
                   </a>
                 </li>
               </ul>
-                <div class="mob-menu-soc">
-                  <ul class="mob-menu-soc__list">
-                    <li class="mob-menu-soc__item"><a class="mob-menu-soc__link" href="#">Instagram</a></li>
-                    <li class="mob-menu-soc__item"><a class="mob-menu-soc__link" href="#">Twitter</a></li>
-                    <li class="mob-menu-soc__item"><a class="mob-menu-soc__link" href="#">Facebook</a></li>
-                    <li class="mob-menu-soc__item"><a class="mob-menu-soc__link" href="#">LinkedIn</a></li>
-                  </ul>
-                </div>
+              <div class="mob-menu-soc">
+                <ul class="mob-menu-soc__list">
+                  <li class="mob-menu-soc__item">
+                    <a class="mob-menu-soc__link" href="#">Instagram</a>
+                  </li>
+                  <li class="mob-menu-soc__item">
+                    <a class="mob-menu-soc__link" href="#">Twitter</a>
+                  </li>
+                  <li class="mob-menu-soc__item">
+                    <a class="mob-menu-soc__link" href="#">Facebook</a>
+                  </li>
+                  <li class="mob-menu-soc__item">
+                    <a class="mob-menu-soc__link" href="#">LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -164,7 +181,7 @@
           </ul>
         </div>
       </section>
-      <!-- <section class="section workspace">
+      <section class="section workspace">
         <div class="conteiner">
           <h2 class="workspace__title">Чем мы занимаемся</h2>
           <ul class="workspace__menu">
@@ -190,34 +207,45 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <section class="section our-team">
         <div class="conteiner">
           <h2 class="our-team__title">Наша команда</h2>
           <ul class="our-team__menu">
             <li class="our-team__item">
               <picture>
-                <source srcset="
-                ./images/desktop/pers01_desktop-1x.jpg 1x, 
-                ./images/desktop/pers01_desktop-2x.jpg 2x"
-                media="(min-width: 1200px)" 
+                <source
+                  srcset="
+                    ./images/desktop/pers01_desktop-1x.jpg 1x,
+                    ./images/desktop/pers01_desktop-2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
                 />
-                 <source srcset="
-                ./images/tablet/pers01_tablet-1x.jpg 1x, 
-                ./images/tablet/pers01_tablet-2x.jpg 2x"
-                media="(min-width: 720px)" 
+                <source
+                  srcset="
+                    ./images/tablet/pers01_tablet-1x.jpg 1x,
+                    ./images/tablet/pers01_tablet-2x.jpg 2x
+                  "
+                  media="(min-width: 720px)"
                 />
-                 <source srcset="
-                ./images/mobile/pers01_mobile-1x.jpg 1x, 
-                ./images/mobile/pers01_mobile-2x.jpg 2x"
-                media="(min-width: 480px)" 
+                <source
+                  srcset="
+                    ./images/mobile/pers01_mobile-1x.jpg 1x,
+                    ./images/mobile/pers01_mobile-2x.jpg 2x
+                  "
+                  media="(min-width: 480px)"
                 />
-                <source srcset="
-                ./images/mobile/pers01_mobile-1x.jpg 1x, 
-                ./images/mobile/pers01_mobile-2x.jpg 2x"
-                media="(min-width: 320px)" 
+                <source
+                  srcset="
+                    ./images/mobile/pers01_mobile-1x.jpg 1x,
+                    ./images/mobile/pers01_mobile-2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
                 />
-                <img src="./images/mobile/pers01_mobile-1x.jpg" alt="Игорь Демьяненко" />
+                <img
+                  src="./images/mobile/pers01_mobile-1x.jpg"
+                  alt="Игорь Демьяненко"
+                />
               </picture>
               <div class="our-team__about">
                 <h3 class="our-team__name">Игорь Демьяненко</h3>
@@ -264,27 +292,38 @@
             </li>
             <li class="our-team__item">
               <picture>
-                <source srcset="
-                ./images/desktop/pers02_desktop-1x.jpg 1x, 
-                ./images/desktop/pers02_desktop-2x.jpg 2x"
-                media="(min-width: 1200px)" 
+                <source
+                  srcset="
+                    ./images/desktop/pers02_desktop-1x.jpg 1x,
+                    ./images/desktop/pers02_desktop-2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
                 />
-                 <source srcset="
-                ./images/tablet/pers02_tablet-1x.jpg 1x, 
-                ./images/tablet/pers02_tablet-2x.jpg 2x"
-                media="(min-width: 720px)" 
+                <source
+                  srcset="
+                    ./images/tablet/pers02_tablet-1x.jpg 1x,
+                    ./images/tablet/pers02_tablet-2x.jpg 2x
+                  "
+                  media="(min-width: 720px)"
                 />
-                 <source srcset="
-                ./images/mobile/pers02_mobile-1x.jpg 1x, 
-                ./images/mobile/pers02_mobile-2x.jpg 2x"
-                media="(min-width: 480px)" 
+                <source
+                  srcset="
+                    ./images/mobile/pers02_mobile-1x.jpg 1x,
+                    ./images/mobile/pers02_mobile-2x.jpg 2x
+                  "
+                  media="(min-width: 480px)"
                 />
-                <source srcset="
-                ./images/mobile/pers02_mobile-1x.jpg 1x, 
-                ./images/mobile/pers02_mobile-2x.jpg 2x"
-                media="(min-width: 320px)" 
+                <source
+                  srcset="
+                    ./images/mobile/pers02_mobile-1x.jpg 1x,
+                    ./images/mobile/pers02_mobile-2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
                 />
-                <img src="./images/mobile/pers01_mobile-1x.jpg" alt="Ольга Репина" />
+                <img
+                  src="./images/mobile/pers01_mobile-1x.jpg"
+                  alt="Ольга Репина"
+                />
               </picture>
               <div class="our-team__about">
                 <h3 class="our-team__name">Ольга Репина</h3>
@@ -331,27 +370,38 @@
             </li>
             <li class="our-team__item">
               <picture>
-                <source srcset="
-                ./images/desktop/pers03_desktop-1x.jpg 1x, 
-                ./images/desktop/pers03_desktop-2x.jpg 2x"
-                media="(min-width: 1200px)" 
+                <source
+                  srcset="
+                    ./images/desktop/pers03_desktop-1x.jpg 1x,
+                    ./images/desktop/pers03_desktop-2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
                 />
-                 <source srcset="
-                ./images/tablet/pers03_tablet-1x.jpg 1x, 
-                ./images/tablet/pers03_tablet-2x.jpg 2x"
-                media="(min-width: 720px)" 
+                <source
+                  srcset="
+                    ./images/tablet/pers03_tablet-1x.jpg 1x,
+                    ./images/tablet/pers03_tablet-2x.jpg 2x
+                  "
+                  media="(min-width: 720px)"
                 />
-                 <source srcset="
-                ./images/mobile/pers03_mobile-1x.jpg 1x, 
-                ./images/mobile/pers03_mobile-2x.jpg 2x"
-                media="(min-width: 480px)" 
+                <source
+                  srcset="
+                    ./images/mobile/pers03_mobile-1x.jpg 1x,
+                    ./images/mobile/pers03_mobile-2x.jpg 2x
+                  "
+                  media="(min-width: 480px)"
                 />
-                <source srcset="
-                ./images/mobile/pers03_mobile-1x.jpg 1x, 
-                ./images/mobile/pers03_mobile-2x.jpg 2x"
-                media="(min-width: 320px)" 
+                <source
+                  srcset="
+                    ./images/mobile/pers03_mobile-1x.jpg 1x,
+                    ./images/mobile/pers03_mobile-2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
                 />
-                <img src="./images/mobile/pers01_mobile-1x.jpg" alt="Николай Тарасов" />
+                <img
+                  src="./images/mobile/pers01_mobile-1x.jpg"
+                  alt="Николай Тарасов"
+                />
               </picture>
               <div class="our-team__about">
                 <h3 class="our-team__name">Николай Тарасов</h3>
@@ -398,27 +448,38 @@
             </li>
             <li class="our-team__item">
               <picture>
-                <source srcset="
-                ./images/desktop/pers04_desktop-1x.jpg 1x, 
-                ./images/desktop/pers04_desktop-2x.jpg 2x"
-                media="(min-width: 1200px)" 
+                <source
+                  srcset="
+                    ./images/desktop/pers04_desktop-1x.jpg 1x,
+                    ./images/desktop/pers04_desktop-2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
                 />
-                 <source srcset="
-                ./images/tablet/pers04_tablet-1x.jpg 1x, 
-                ./images/tablet/pers04_tablet-2x.jpg 2x"
-                media="(min-width: 720px)" 
+                <source
+                  srcset="
+                    ./images/tablet/pers04_tablet-1x.jpg 1x,
+                    ./images/tablet/pers04_tablet-2x.jpg 2x
+                  "
+                  media="(min-width: 720px)"
                 />
-                 <source srcset="
-                ./images/mobile/pers04_mobile-1x.jpg 1x, 
-                ./images/mobile/pers04_mobile-2x.jpg 2x"
-                media="(min-width: 480px)" 
+                <source
+                  srcset="
+                    ./images/mobile/pers04_mobile-1x.jpg 1x,
+                    ./images/mobile/pers04_mobile-2x.jpg 2x
+                  "
+                  media="(min-width: 480px)"
                 />
-                <source srcset="
-                ./images/mobile/pers04_mobile-1x.jpg 1x, 
-                ./images/mobile/pers04_mobile-2x.jpg 2x"
-                media="(min-width: 320px)" 
+                <source
+                  srcset="
+                    ./images/mobile/pers04_mobile-1x.jpg 1x,
+                    ./images/mobile/pers04_mobile-2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
                 />
-                <img src="./images/mobile/pers01_mobile-1x.jpg" alt="Михаил Ермаков" />
+                <img
+                  src="./images/mobile/pers01_mobile-1x.jpg"
+                  alt="Михаил Ермаков"
+                />
               </picture>
               <div class="our-team__about">
                 <h3 class="our-team__name">Михаил Ермаков</h3>
@@ -516,8 +577,8 @@
         </div>
       </section>
     </main>
-    <footer>
-      <!-- <div class="conteiner conteiner-wrap">
+    <!-- <footer>
+      <div class="conteiner conteiner-wrap">
         <div class="contact">
           <a class="contact__logo" href="./index.html" lang="en"
             ><span class="navigation-menu__logo-color">Web</span>Studio</a
@@ -603,8 +664,8 @@
           </button>
         </form>
       </div>
-    </footer>
-    <div class="backdrop is-hidden" data-modal>
+    </footer> -->
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal__close" data-modal-close>
           <svg class="icon-close" width="11px" height="11px">
@@ -680,8 +741,9 @@
             Отправить
           </button>
         </form>
-      </div> -->
-    </div>
+      </div>
+    </div> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
