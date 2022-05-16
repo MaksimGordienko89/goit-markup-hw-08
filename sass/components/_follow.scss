@@ -1,5 +1,7 @@
 .follow {
-  margin-left: 70px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+  }
 }
 .follow__title {
   font-family: "Roboto";
@@ -34,6 +36,7 @@
 .follow__soc-list {
   list-style: none;
   display: flex;
+  justify-content: center;
 }
 .follow__soc-item + .follow__soc-item {
   margin-left: 10px;
