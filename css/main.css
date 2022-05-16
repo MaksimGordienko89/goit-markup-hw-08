@@ -233,7 +233,8 @@ ol {
   background-size: cover;
 }
 
-.header__menu-btn {
+.header__menu-btn,
+.mob-menu__btn {
   cursor: pointer;
   display: block;
   align-items: center;
@@ -242,11 +243,103 @@ ol {
   border: none;
   margin-left: auto;
 }
-.header__menu-btn:hover {
+.header__menu-btn:hover,
+.mob-menu__btn:hover {
   fill: var(--accent-color);
 }
-.header__menu-btn:focus {
+.header__menu-btn:focus,
+.mob-menu__btn:focus {
   fill: var(--accent-color);
+}
+
+.mob-menu__btn {
+  margin-bottom: -2px;
+}
+
+.mob-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--main-lite-color);
+  height: 100vh;
+  width: 100vw;
+  z-index: 5;
+  padding-top: 10px;
+  padding-bottom: 48px;
+  padding-left: 40px;
+}
+
+.mob-menu__item {
+  list-style: none;
+}
+.mob-menu__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.mob-menu__link {
+  display: block;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.mob-menu__contacts-item {
+  list-style: none;
+}
+
+.mob-menu__contacts-item + .mob-menu__contacts-item {
+  margin-top: 32px;
+}
+
+.mob-menu__contacts-tel {
+  display: block;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+  color: var(--accent-color);
+}
+
+.mob-menu__contacts-mail {
+  display: block;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  color: var(--text-color);
+  margin-bottom: 64px;
+}
+
+.mob-menu-soc__list {
+  display: flex;
+}
+
+.mob-menu-soc__item {
+  list-style: none;
+  border-left: 1px solid rgba(33, 33, 33, 0.2);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.mob-menu-soc__item:first-child {
+  border: none;
+  padding-left: 0;
+}
+
+.mob-menu-soc__link {
+  display: block;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
 }
 
 .hero {
