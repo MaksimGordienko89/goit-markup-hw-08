@@ -34,12 +34,17 @@
 }
 .list-filter {
   display: flex;
-  margin-bottom: 50px;
-  justify-content: center;
-  .list-filter__item + .list-filter__item {
-    margin-left: 8px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  @media screen and (min-width: 720px) {
+    justify-content: center;
   }
 }
 .list-filter__item {
   list-style: none;
+  margin-bottom: 15px;
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
