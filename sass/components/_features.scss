@@ -14,7 +14,7 @@
     background-color: var(--btn-filter-background-color);
     margin-bottom: 30px;
   }
-  @media screen and (min-width: 720px) {
+  @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 30px * (2 - 1)) / 2);
   }
   @media screen and (min-width: 1200px) {
@@ -34,7 +34,7 @@
   background-image: url(../images/icons/astronaut.png);
 }
 .features__menu {
-  @media screen and (min-width: 720px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -47,7 +47,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
-  @media screen and (min-width: 720px) {
+  @media screen and (min-width: 768px) {
     text-align: left;
   }
 }

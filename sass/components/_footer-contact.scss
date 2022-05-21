@@ -1,5 +1,5 @@
 .conteiner-wrap {
-  @media screen and (min-width: 720px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -59,7 +59,7 @@ footer {
 }
 .follow__title {
   margin-top: 60px;
-  @media screen and (min-width: 720px) {
+  @media screen and (min-width: 768px) {
     margin-top: 0;
   }
   @media screen and (min-width: 1200px) {

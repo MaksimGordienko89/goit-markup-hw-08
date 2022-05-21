@@ -5,7 +5,7 @@
 }
 .contacts-menu {
   display: none;
-  @media screen and (min-width: 720px) {
+  @media screen and (min-width: 768px) {
     display: block;
     list-style: none;
     align-items: center;
@@ -28,7 +28,7 @@
   }
 }
 .navigation {
-  @media screen and (min-width: 720px) {
+  @media screen and (min-width: 768px) {
     display: flex;
   }
 }
@@ -37,7 +37,7 @@
 }
 .navigation-menu-list {
   display: none;
-  @media screen and (min-width: 720px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     margin-left: 88px;
   }
@@ -147,7 +147,7 @@
   }
 }
 .header__menu-btn {
-  @media screen and (min-width: 719px) {
+  @media screen and (min-width: 767px) {
     display: none;
   }
 }
@@ -172,7 +172,7 @@
     justify-content: space-between;
     overflow: auto;
   }
-  @media screen and (min-width: 719px) {
+  @media screen and (min-width: 767px) {
     display: none;
   }
 }
